@@ -1,14 +1,14 @@
 # Metodos-Numericos
 
-### Dependências
+## Dependências
 Para rodar este programa você deve estar em um ambiente ***Linux*** ou ***Mac OS*** e com a biblioteca [Simpy](http://docs.sympy.org/latest/install.html) e [MatplotLib](https://matplotlib.org/users/installing.html) instaladas.
 
-### Executando o código
+## Executando o código
 Assim, quando quiser executá-lo, com todas as dependências devidamente instaladas, você deve rodar o comando: 
 ```
 $ python3 Proj.py
 ```
-### Métodos Implementados
+## Métodos Implementados
 Euler, Euler Inverso, Euler Aprimorado, Runge Kutta, Adams Bashforth, Adams Bashforth por Euler, Adams Bashforth por Euler Inverso, Adams Bashforth por Euler Aprimorado
 
 ## Funcionamento
@@ -33,7 +33,7 @@ adam_bashforth_by_euler_inverso 0 0 0.1 20 1-t+4*y 6
 adam_bashforth_by_euler_aprimorado 0 0 0.1 20 1-t+4*y 6
 ```
 
-### Saída
+## Saída
 Será exibido o nome do método usado, o valor de y(t0), o valor de h e a cada passo calculado sera exibido em que passo ele está e o valor de y daquele passo.
 ```
 Metodo de Euler
