@@ -8,17 +8,21 @@ Assim, quando quiser executá-lo, com todas as dependências devidamente instala
 ```
 $ python3 Proj.py
 ```
-
+### Métodos Implementados
+Euler, Euler Inverso, Euler Aprimorado, Runge Kutta, Adams Bashforth, Adams Bashforth por Euler, Adams Bashforth por Euler Inverso, Adams Bashforth por Euler Aprimorado
 
 ## Funcionamento
 É dada a entrada em aquivo e ele deve ser organizado com cada linha um método.
 Cada método deve obdecer ordens especificas na entrada :
-```
+
   1)Para Euler, Euler Inverso, Euler Aprimorado e Runge Kutta (Nome_do_Metodo y0 t0 h n função)
-  2)Para Adams Bashforth(Nome_do_Metodo y[grau - 1] t0 h n função grau)
-  3)Para Adams Bashforth by Euler, by Euler Inverso, by Euler Aprimorado (Nome_do_Metodo y0 t0 h n função grau)
-  Exemplo de entrada válida:
   
+  2)Para Adams Bashforth(Nome_do_Metodo y[grau - 1] t0 h n função grau)
+  
+  3)Para Adams Bashforth by Euler, by Euler Inverso, by Euler Aprimorado (Nome_do_Metodo y0 t0 h n função grau)
+  
+  Exemplo de entrada válida:
+```
 euler 0 0 0.1 20 1-t+4*y
 euler_inverso 0 0 0.1 20 1-t+4*y
 euler_aprimorado 0 0 0.1 20 1-t+4*y
